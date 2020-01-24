@@ -42,7 +42,7 @@ namespace bannerwebCracker
                 Thread.Sleep(300);
                 try
                 {
-                    driver.FindElement(By.Name("sidd")); // username box
+                    driver.FindElement(By.Name("sid")); // username box
                     elementPresent = true;
                 }
                 catch
